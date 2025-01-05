@@ -39,6 +39,10 @@ body {
     box-sizing: border-box;
 }
 
+#texto-entrada input::placeholder {
+    color: #c760006b;
+}
+
 #texto-entrada input:focus {
     background-color: #312000;
 }
@@ -54,7 +58,7 @@ body {
     transition: .5s;
     position: absolute;
     height: 45px;
-    right: 101px;
+    outline: none;
 }
 
 #texto-entrada button:hover {
@@ -83,10 +87,11 @@ body {
     color: orangered;
     padding: 12px;
     transition: .5s;
+    margin-bottom: 12px;
 }
 
 #lista-tarefas span {
-    font-weight: bold;
+    font-size: 13px;
 }
 
 .concluir-tarefa {
