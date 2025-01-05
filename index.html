@@ -8,19 +8,20 @@
 </head>
 <body>
     <div id="lista-container">
-        <div>
+        <div id="texto-entrada">
             <h2>Digite as suas tarefas do dia</h2>
-            <form action="" >
+            <form action="" id="formulario">
                 <input type="text" id="lista-entrada">
-                <button type="submi">Criar</button>
+                <button type="submi" id="add-btn">Criar</button>
             </form>
         </div>
-        <div>
-            <ul>
-                <li>
+        <div id="container-listar-tarefas">
+            <h2>Aquí estão as suas tarefas do dia</h2>
+            <ul id="lista-tarefas">
+                <li class="minhas-tarefas interface concluir">
                     <span>Teste</span>
-                    <div>x</div>
-                    <div>z</div>
+                    <div class="concluir-tarefa">z</div>
+                    <div class="deletar-tarefa">x</div>
                 </li>
             </ul>
         </div>
